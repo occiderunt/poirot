@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.poirot" parent="Theme.Material3.Light.NoActionBar">
+        <item name="android:windowBackground">#F4EBD9</item>
+        <item name="android:statusBarColor">#F4EBD9</item>
+        <item name="android:navigationBarColor">#F4EBD9</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="27">true</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="29">false</item>
+    </style>
+</resources>
