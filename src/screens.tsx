@@ -13,7 +13,7 @@ import {
   type Shelf,
 } from "./store";
 
-export const VERSION = "1.0.1";
+export const VERSION = "1.0.2";
 
 // ---------- small pieces ----------------------------------------------------
 

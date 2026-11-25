@@ -60,11 +60,11 @@ builds, unsigned.
 
 ## Release
 
-- Version: 1.0.1
+- Version: 1.0.2
 - Package: `org.vellum.poirot`
 - Min SDK 24, target SDK 37
-- Artifact: `Poirot_1.0.1_android-arm64.apk` (5,943,902 bytes)
-- SHA-256: `f5f459fc41fe9530c2aecd679198ceac904f85b3f621905b28919170060d715e`
+- Artifact: `Poirot_1.0.2_android-arm64.apk` (5,943,918 bytes)
+- SHA-256: `75bee5781bec4d5b242ad6adb8b78adb31ac2c47ded28862b97dd80212c49add`
 
 ## Storage
 
