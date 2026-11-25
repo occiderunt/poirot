@@ -58,6 +58,21 @@ The Android project lives in `src-tauri/gen/android`. Release signing reads
 `POIROT_KEY_PASSWORD`. Signing is optional: without a keystore the release APK still
 builds, unsigned.
 
+iOS (simulator, then device):
+
+```sh
+git submodule update --init --recursive
+npx tauri ios build --target aarch64-sim --debug
+npx tauri ios build            # needs a development team for signing
+```
+
+The iOS project lives in `src-tauri/gen/apple`, which is the
+[poirot-ios](https://github.com/occiderunt/poirot-ios) repository checked out as a
+submodule, because the generated Xcode project references the Rust crate two levels
+up. It needs Xcode, XcodeGen, CocoaPods, and the Rust targets `aarch64-apple-ios`,
+`aarch64-apple-ios-sim` and `x86_64-apple-ios`. Build products (`build/`,
+`Externals/`, `Pods/`) stay out of git on both sides.
+
 ## Release
 
 - Version: 1.0.2

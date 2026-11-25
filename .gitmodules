@@ -1,0 +1,3 @@
+[submodule "src-tauri/gen/apple"]
+	path = src-tauri/gen/apple
+	url = https://github.com/occiderunt/poirot-ios.git
