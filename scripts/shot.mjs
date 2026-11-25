@@ -117,7 +117,7 @@ await shot("05-items");
 await clickText(".chip", "Due soon");
 await shot("06-due");
 
-await clickText(".tab", "Study");
+await clickText(".tab", "Settings");
 await shot("07-settings");
 
 await clickText(".setting-row", "Shelves");

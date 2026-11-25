@@ -186,8 +186,8 @@ export default function App() {
                 onClick={() => setRoute({ name: "settings" })}
                 aria-current={tab === "settings" ? "page" : undefined}
               >
-                <Icon name="book" size={21} />
-                Study
+                <Icon name="settings" size={21} />
+                Settings
               </button>
             </div>
           </nav>
