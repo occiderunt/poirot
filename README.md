@@ -1,5 +1,9 @@
 # Poirot
 
+
+
+# DUE TO COPYRIGHT INFRINGEMENT CHANCES, WE HAVE MOVED TO [GUSTAVE](https://github.com/occiderunt/gustave).
+
 A rustic pantry ledger for Android. Every jar accounted for.
 
 Poirot keeps track of what is on your shelves: how much is left, when it needs using,
